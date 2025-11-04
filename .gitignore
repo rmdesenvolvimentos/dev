@@ -1,0 +1,15 @@
+# Ignorar dependências e arquivos de build
+/node_modules
+/dist
+/frontend/dist
+/frontend/node_modules
+
+# Ignorar arquivos de ambiente Python
+/backend/__pycache__/
+/backend/venv/
+/backend/.venv/
+
+# Ignorar arquivos de ambiente e logs
+.env
+.env.*
+*.log
